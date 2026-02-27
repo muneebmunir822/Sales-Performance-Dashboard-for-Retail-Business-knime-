@@ -1,12 +1,11 @@
-Sales and Returns Data Pipeline & Visualization Workflow
+**Sales and Returns Data Pipeline & Visualization Workflow**
 
 This project implements a comprehensive data pipeline in KNIME that transforms raw Excel data into a structured dimensional model (Star Schema) and provides an interactive visualization dashboard for business insights.
 +1
 
 
-Note: Please use the latest version of KNIME for the workflow file to function correctly.
 
-🚀 Project Overview
+**🚀 Project Overview**
 The workflow consists of two main components:
 
 
@@ -15,7 +14,7 @@ Creating Dimension Tables: Data cleaning, transformation, and schema modeling.
 
 Visualization: Interactive dashboarding with various KPIs and performance metrics.
 
-🛠️ Data Pipeline (ETL)
+**🛠️ Data Pipeline (ETL)**
 The pipeline filters raw data to create 10 specific Dimension Tables:
 
 Customer, Product, Ship Mode, Segment, City, State, Postal Code, Region, Category, and Subcategory.
@@ -33,7 +32,7 @@ Fact Table Creation: Derived by filtering the Excel reader, removing string name
 
 Inner Joins: Connects all dimension tables to the fact table for comprehensive reporting.
 
-📊 Dashboard & Visualizations
+**📊 Dashboard & Visualizations**
 The visualization component is divided into five specialized modules:
 
 1. Revenue and Profit based on Time
@@ -77,5 +76,6 @@ Display: Aggregated return counts displayed in a Pie Chart.
 ⚙️ Requirements
 
 KNIME Analytics Platform (Latest Version).
+
 
 Input data: Excel source file containing Sales and Returns worksheets.
